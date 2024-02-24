@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Projects from './Projects'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       </div>
       <div className="section">
         <div className="projects">
+          <a>
             Projects
+          </a>
         </div>
         <div className="contact">
             Contact
