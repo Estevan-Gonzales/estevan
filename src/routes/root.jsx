@@ -1,8 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-import Projects from './Projects'
-
-function App() {
+export default function Root() {
   return (
     <div className="outside">
       <div className="name">
@@ -24,5 +20,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
