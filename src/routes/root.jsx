@@ -11,7 +11,7 @@ export default function Root() {
       </div>
       <div className="section">
         <div className="projects">
-          <Link to="/Project">
+          <Link to="/Projects">
             Projects
           </Link>
         </div>

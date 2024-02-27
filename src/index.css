@@ -43,17 +43,56 @@ code {
   margin-left: 25px;
 }
 
+
+
 .projects {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: lightslategray;
 }
 
-.contact {
-
+.project {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
 }
 
-.projects:hover {
-  background-color: orange;
+.project-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xxx-large;
+}
+
+.darken {
+  transition: all 250ms ease-in-out;
+  filter: brightness(20%);
+  width: 60%;
+}
+
+.darken:hover {
+  filter: brightness(100%);
+}
+
+.darken:hover + .project-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
 .contact:hover {
   background-color: salmon;
+}
+
+.project-details {
+  font-size: large;
+  justify-self: first baseline
 }
