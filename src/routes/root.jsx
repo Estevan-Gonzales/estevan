@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Root() {
   return (
     <div className="outside">
@@ -9,12 +11,14 @@ export default function Root() {
       </div>
       <div className="section">
         <div className="projects">
-          <a>
+          <Link to="/Project">
             Projects
-          </a>
+          </Link>
         </div>
         <div className="contact">
+          <Link to="/Contact">
             Contact
+          </Link>
         </div>
       </div>
     </div>
