@@ -6,6 +6,7 @@ import "./index.css";
 import ErrorPage from './error-page';
 import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
+import ProjectDetails from './pages/ProjectDetails.jsx';
 
 
 const router = createBrowserRouter([
@@ -16,11 +17,16 @@ const router = createBrowserRouter([
     },
     {
       path: '/Projects',
-      element: <Projects />
+      element: <Projects />,
+
     },
     {
       path: '/Contact',
       element: <Contact />
+    },
+    {
+      path: '/Projects/:id',
+      element: <ProjectDetails />
     }
   ],
 );

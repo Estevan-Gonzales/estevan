@@ -22,7 +22,16 @@ code {
   background-color: lightslategray;
 }
 
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+
+}
+
 .projects-link {
+  
 }
 
 .contact-link {
@@ -30,10 +39,13 @@ code {
 
 .projects-link:hover {
   background-color: orange;
+  transition: 300ms ease-in-out;
 }
 
 .contact-link:hover {
   background-color: salmon;
+  transition: 300ms ease-in-out;
+
 }
 
 .name {
@@ -84,6 +96,10 @@ code {
   font-size: xxx-large;
 }
 
+.project-details {
+  font-size: large;
+}
+
 .darken {
   transition: all 250ms ease-in-out;
   filter: brightness(20%);
@@ -102,9 +118,6 @@ code {
   display: none;
 }
 
-.contact:hover {
-  background-color: salmon;
-}
 
 .project-details {
   font-size: large;
