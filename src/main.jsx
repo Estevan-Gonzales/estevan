@@ -10,6 +10,7 @@ import ProjectDetails from './pages/ProjectDetails.jsx';
 import Elements from  './pages/Elements';
 import Canvas from './components/Canvas';
 import TypeHype from './pages/TypeHype';
+import Monopoly from './pages/Monopoly';
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
     {
       path: '/Projects/typehype',
       element: <TypeHype />
+    },
+    {
+      path: 'Projects/monopoly',
+      element: <Monopoly />
     }
   ],
 );

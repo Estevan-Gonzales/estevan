@@ -5,6 +5,11 @@ export default function Projects() {
 
     let projects = [
         {
+            name: "Monopoly",
+            id: "monopoly",
+            image_url: "/images/monopoly.png"
+        },
+        {
             name: "The Elements",
             id: "elements",
             image_url: "/images/elements.png",
@@ -19,7 +24,6 @@ export default function Projects() {
             name: "TypeHype",
             id: "typehype",
             image_url: "/images/typehype.png",
-
         }
     ];
             

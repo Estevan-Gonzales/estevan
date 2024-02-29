@@ -30,13 +30,6 @@ a:visited {
 
 }
 
-.projects-link {
-  
-}
-
-.contact-link {
-}
-
 .projects-link:hover {
   background-color: #C9E4CA;
   transition: 300ms ease-in-out;
