@@ -15,6 +15,11 @@ export default function Root() {
             Projects
           </Link>
         </div>
+        <div className="data-sets-link">
+          <Link to="/Projects">
+            Data Sets
+          </Link>
+        </div>
         <div className="contact-link">
           <Link to="/Contact">
             Contact

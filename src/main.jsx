@@ -7,6 +7,9 @@ import ErrorPage from './error-page';
 import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
 import ProjectDetails from './pages/ProjectDetails.jsx';
+import Elements from  './pages/Elements';
+import Canvas from './components/Canvas';
+import TypeHype from './pages/TypeHype';
 
 
 const router = createBrowserRouter([
@@ -25,8 +28,16 @@ const router = createBrowserRouter([
       element: <Contact />
     },
     {
-      path: '/Projects/:id',
-      element: <ProjectDetails />
+      path: '/Projects/elements',
+      element: <Elements />
+    },
+    {
+      path: '/Projects/halfs',
+      element: <Canvas />
+    },
+    {
+      path: '/Projects/typehype',
+      element: <TypeHype />
     }
   ],
 );

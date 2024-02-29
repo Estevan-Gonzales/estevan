@@ -7,17 +7,19 @@ export default function Projects() {
         {
             name: "The Elements",
             id: "elements",
-            image_url: "/images/elements.png"
+            image_url: "/images/elements.png",
         },
         {
             name: "Halfs",
             id: "halfs",
-            image_url: "/images/halfs.png"
+            image_url: "/images/halfs.png",
+
         },
         {
             name: "TypeHype",
             id: "typehype",
-            image_url: "/images/typehype.png"
+            image_url: "/images/typehype.png",
+
         }
     ];
             
@@ -27,4 +29,4 @@ export default function Projects() {
         </div>
     );
 
-}
+};

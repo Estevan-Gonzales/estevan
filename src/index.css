@@ -19,7 +19,7 @@ code {
   bottom: 0;
   right: 0;
   overflow: auto;
-  background-color: lightslategray;
+  background-color: #2F7FB1;
 }
 
 a:link {
@@ -38,12 +38,17 @@ a:visited {
 }
 
 .projects-link:hover {
-  background-color: orange;
+  background-color: #C9E4CA;
+  transition: 300ms ease-in-out;
+}
+
+.data-sets-link:hover {
+  background-color: #E2856E;
   transition: 300ms ease-in-out;
 }
 
 .contact-link:hover {
-  background-color: salmon;
+  background-color: #7A82AB;
   transition: 300ms ease-in-out;
 
 }
@@ -57,7 +62,7 @@ a:visited {
 .subline {
   font-size: 35px;
   margin-left: 5px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   font-style: italic
 }
 
