@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 
+import '../index.css'
+
 export default function Root() {
   return (
-    <div className="outside">
+    <div className="outside-main">
       <div className="name">
         Estevan Gonzales
         <div className="subline">
@@ -16,13 +18,13 @@ export default function Root() {
           </Link>
         </div>
         <div className="data-sets-link">
-          <Link to="/Projects">
+          <Link to="/DataSets">
             Data Sets
           </Link>
         </div>
         <div className="contact-link">
           <Link to="/Contact">
-            Contact
+            Contact Me
           </Link>
         </div>
       </div>

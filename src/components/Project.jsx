@@ -1,9 +1,9 @@
 import React from 'react';
 import '../index.css'
 import { Link } from 'react-router-dom';
-import ProjectDetails from '../pages/ProjectDetails';
+import ProjectDetails from './ProjectDetails';
 
-function Work({ projects }) {
+function Project({ projects }) {
 
     const dataToPass = { name: 'John Doe', age: 25 };
 
@@ -24,4 +24,4 @@ function Work({ projects }) {
     )
 }
 
-export default Work;
+export default Project;

@@ -1,5 +1,5 @@
 import '/src/index.css';
-import Work from '../components/Work';
+import Work from '../components/Project';
 
 export default function Projects() {
 
@@ -28,9 +28,12 @@ export default function Projects() {
     ];
             
     return (
-        <div className="projects">
-            <Work projects={projects}/>
-        </div>
+
+            <div className="outside-projects">
+                <div className="projects-header">Projects</div>
+                <Work projects={projects}/>
+            </div>
+
     );
 
 };

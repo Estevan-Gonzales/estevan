@@ -5,8 +5,9 @@ import Root from "./routes/root";
 import "./index.css";
 import ErrorPage from './error-page';
 import Projects from './pages/Projects.jsx';
+import DataSets from './pages/DataSets';
 import Contact from './pages/Contact.jsx';
-import ProjectDetails from './pages/ProjectDetails.jsx';
+import ProjectDetails from './components/ProjectDetails.jsx';
 import Elements from  './pages/Elements';
 import Canvas from './components/Canvas';
 import TypeHype from './pages/TypeHype';
@@ -22,7 +23,10 @@ const router = createBrowserRouter([
     {
       path: '/Projects',
       element: <Projects />,
-
+    },
+    {
+      path: '/DataSets',
+      element: <DataSets />
     },
     {
       path: '/Contact',

@@ -18,6 +18,7 @@ body {
     grid-template: 2fr 1fr repeat(9, 2fr) 1fr 2fr / 2fr 1fr repeat(9, 2fr) 1fr 2fr;
     border: solid royalblue 10px;
     text-transform: uppercase;
+    
   }
   
   .property-text-top {

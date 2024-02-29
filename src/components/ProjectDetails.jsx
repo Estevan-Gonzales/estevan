@@ -1,5 +1,5 @@
 import '/src/index.css';
-import Work from '../components/Work';
+import Work from './Project';
 import React from 'react';
 
 
