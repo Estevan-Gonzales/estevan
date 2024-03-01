@@ -1,4 +1,4 @@
-import '/src/elements.css'
+import '/Users/estevan/Desktop/estevan/src/assets/elements.css'
 
 function Elements() {
 

@@ -1,7 +1,7 @@
 import Box from './Box';
 import React, {useState} from 'react';
 
-import '/src/halfs.css';
+import '/Users/estevan/Desktop/estevan/src/assets/halfs.css'
 
 
 function Canvas() {

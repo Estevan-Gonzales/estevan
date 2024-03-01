@@ -1,4 +1,4 @@
-import '/src/index.css';
+import '/Users/estevan/Desktop/estevan/src/index.css';
 import Work from '../components/Project';
 
 export default function Projects() {

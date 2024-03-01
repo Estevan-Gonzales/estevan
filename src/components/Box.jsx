@@ -1,4 +1,4 @@
-import '/src/halfs.css'
+import '/Users/estevan/Desktop/estevan/src/assets/halfs.css'
 
 function Box() {
     return (
